@@ -1,0 +1,26 @@
+{
+  "name": "cosy-lang-demo",
+  "version": "0.0.1",
+  "description": "Demo of cosy-lang",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha -u tdd test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bahulneel/cosy-lang-demo.git"
+  },
+  "dependencies": {
+    "cosy-lang": ">=0.3.0",
+    "socket.io": "*",
+    "socket.io-client": "*"
+  },
+  "devDependencies": {
+    "chai": "1.1.x",
+    "mocha": "1.8.x"
+  },
+  "author": "bahulneel@gmail.com",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "d07b5f1ecc05778b3dc19c0117f1fd8b640e8091"
+}
